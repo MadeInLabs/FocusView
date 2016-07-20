@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorAccent"
+    tools:context="br.com.madeinlabs.focusview.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_upload"
+        android:src="@android:drawable/stat_sys_upload_done"
+        android:contentDescription="@null"
+        android:layout_margin="50dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:id="@+id/img_map"
+        android:src="@android:drawable/ic_dialog_map"
+        android:contentDescription="@null"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="50dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <ImageView
+        android:id="@+id/img_email"
+        android:src="@android:drawable/ic_dialog_email"
+        android:contentDescription="@null"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="50dp"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+
+    <br.com.madeinlabs.focusview.FocusView
+        android:id="@+id/focusView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        custom:backgroundColor="@color/colorPrimaryDarkAlpha"
+        custom:holeMargin="20dp" />
+
+</RelativeLayout>

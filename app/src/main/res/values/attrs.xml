@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FocusView">
+        <attr name="holeRadius" format="dimension" />
+        <attr name="holeMargin" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="circleAncor" format="reference" />
+        <attr name="coverHeight" format="boolean"/>
+        <attr name="belowHole" format="boolean" />
+        <attr name="positionToHole" >
+            <enum name="above" value="0"/>
+            <enum name="right" value="1"/>
+            <enum name="below" value="2"/>
+            <enum name="left" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
